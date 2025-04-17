@@ -1,0 +1,16 @@
+[project]
+name = "test-kneed"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "kneed[plot]>=0.8.5",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.4",
+]
